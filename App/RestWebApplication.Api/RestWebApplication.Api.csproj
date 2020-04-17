@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.3" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\..\Data\RestWebApplication.Data\RestWebApplication.Data.csproj" />
+      <ProjectReference Include="..\..\RestWebApplication.Common\RestWebApplication.Common.csproj" />
+      <ProjectReference Include="..\..\Services\RestWebApplication.Services.Data\RestWebApplication.Services.Data.csproj" />
+      <ProjectReference Include="..\RestWebApplication.Infrastructure\RestWebApplication.Infrastructure.csproj" />
+    </ItemGroup>
+
+
+</Project>

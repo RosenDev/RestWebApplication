@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netstandard2.1</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\..\App\RestWebApplication.Infrastructure\RestWebApplication.Infrastructure.csproj" />
+      <ProjectReference Include="..\..\Data\RestWebApplication.Data.Common\RestWebApplication.Data.Common.csproj" />
+      <ProjectReference Include="..\..\Data\RestWebApplication.Data.Domain\RestWebApplication.Data.Domain.csproj" />
+      <ProjectReference Include="..\..\RestWebApplication.Common\RestWebApplication.Common.csproj" />
+      <ProjectReference Include="..\RestWebApplication.Services.Models\RestWebApplication.Services.Models.csproj" />
+    </ItemGroup>
+
+</Project>

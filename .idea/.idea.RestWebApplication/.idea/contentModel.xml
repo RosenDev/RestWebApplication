@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\User\.Rider2019.3\config\consoles\db" t="IncludeRecursive" />
+    <e p="C:\Users\User\.Rider2019.3\config\extensions" t="IncludeRecursive" />
+    <e p="C:\Users\User\.Rider2019.3\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\User\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_RestWebApplication.948885648.00" t="ExcludeRecursive" />
+    <e p="C:\Users\User\RiderProjects\RestWebApplication" t="IncludeFlat">
+      <e p="App" t="Include">
+        <e p="RestWebApplication.Api" t="IncludeRecursive">
+          <e p="appsettings.Development.json" t="Include" />
+          <e p="appsettings.json" t="Include" />
+          <e p="bin" t="ExcludeRecursive" />
+          <e p="Controllers" t="Include">
+            <e p="Abstractions" t="Include">
+              <e p="ApiController.cs" t="Include" />
+            </e>
+            <e p="TeachersController.cs" t="Include" />
+          </e>
+          <e p="obj" t="ExcludeRecursive">
+            <e p="Debug" t="Include">
+              <e p="netcoreapp3.1" t="Include">
+                <e p="RestWebApplication.Api.AssemblyInfo.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="Program.cs" t="Include" />
+          <e p="Properties" t="Include">
+            <e p="launchSettings.json" t="Include" />
+          </e>
+          <e p="RestWebApplication.Api.csproj" t="IncludeRecursive" />
+          <e p="Startup.cs" t="Include" />
+        </e>
+        <e p="RestWebApplication.Client" t="IncludeRecursive">
+          <e p="appsettings.Development.json" t="Include" />
+          <e p="appsettings.json" t="Include" />
+          <e p="bin" t="ExcludeRecursive" />
+          <e p="obj" t="ExcludeRecursive">
+            <e p="Debug" t="Include">
+              <e p="netcoreapp3.1" t="Include">
+                <e p="RestWebApplication.Client.AssemblyInfo.cs" t="Include" />
+                <e p="RestWebApplication.Client.RazorAssemblyInfo.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="Pages" t="Include">
+            <e p="_ViewImports.cshtml" t="Include" />
+            <e p="_ViewStart.cshtml" t="Include" />
+            <e p="Error.cshtml" t="Include" />
+            <e p="Error.cshtml.cs" t="Include" />
+            <e p="Index.cshtml" t="Include" />
+            <e p="Index.cshtml.cs" t="Include" />
+            <e p="Privacy.cshtml" t="Include" />
+            <e p="Privacy.cshtml.cs" t="Include" />
+            <e p="Shared" t="Include">
+              <e p="_Layout.cshtml" t="Include" />
+              <e p="_ValidationScriptsPartial.cshtml" t="Include" />
+            </e>
+            <e p="Teachers" t="Include">
+              <e p="Create.cshtml" t="Include" />
+              <e p="Create.cshtml.cs" t="Include" />
+            </e>
+          </e>
+          <e p="Program.cs" t="Include" />
+          <e p="Properties" t="Include">
+            <e p="launchSettings.json" t="Include" />
+          </e>
+          <e p="RestWebApplication.Client.csproj" t="IncludeRecursive" />
+          <e p="Startup.cs" t="Include" />
+          <e p="wwwroot" t="Include">
+            <e p="css" t="Include">
+              <e p="site.css" t="Include" />
+            </e>
+            <e p="favicon.ico" t="Include" />
+            <e p="js" t="Include">
+              <e p="site.js" t="Include" />
+            </e>
+            <e p="lib" t="Include">
+              <e p="bootstrap" t="Include">
+                <e p="dist" t="Include">
+                  <e p="css" t="Include">
+                    <e p="bootstrap-grid.css" t="Include" />
+                    <e p="bootstrap-grid.css.map" t="Include" />
+                    <e p="bootstrap-grid.min.css" t="Include" />
+                    <e p="bootstrap-grid.min.css.map" t="Include" />
+                    <e p="bootstrap-reboot.css" t="Include" />
+                    <e p="bootstrap-reboot.css.map" t="Include" />
+                    <e p="bootstrap-reboot.min.css" t="Include" />
+                    <e p="bootstrap-reboot.min.css.map" t="Include" />
+                    <e p="bootstrap.css" t="Include" />
+                    <e p="bootstrap.css.map" t="Include" />
+                    <e p="bootstrap.min.css" t="Include" />
+                    <e p="bootstrap.min.css.map" t="Include" />
+                  </e>
+                  <e p="js" t="Include">
+                    <e p="bootstrap.bundle.js" t="Include" />
+                    <e p="bootstrap.bundle.js.map" t="Include" />
+                    <e p="bootstrap.bundle.min.js" t="Include" />
+                    <e p="bootstrap.bundle.min.js.map" t="Include" />
+                    <e p="bootstrap.js" t="Include" />
+                    <e p="bootstrap.js.map" t="Include" />
+                    <e p="bootstrap.min.js" t="Include" />
+                    <e p="bootstrap.min.js.map" t="Include" />
+                  </e>
+                </e>
+                <e p="LICENSE" t="Include" />
+              </e>
+              <e p="jquery" t="Include">
+                <e p="dist" t="Include">
+                  <e p="jquery.js" t="Include" />
+                  <e p="jquery.min.js" t="Include" />
+                  <e p="jquery.min.map" t="Include" />
+                </e>
+                <e p="LICENSE.txt" t="Include" />
+              </e>
+              <e p="jquery-validation" t="Include">
+                <e p="dist" t="Include">
+                  <e p="additional-methods.js" t="Include" />
+                  <e p="additional-methods.min.js" t="Include" />
+                  <e p="jquery.validate.js" t="Include" />
+                  <e p="jquery.validate.min.js" t="Include" />
+                </e>
+                <e p="LICENSE.md" t="Include" />
+              </e>
+              <e p="jquery-validation-unobtrusive" t="Include">
+                <e p="jquery.validate.unobtrusive.js" t="Include" />
+                <e p="jquery.validate.unobtrusive.min.js" t="Include" />
+                <e p="LICENSE.txt" t="Include" />
+              </e>
+            </e>
+          </e>
+        </e>
+        <e p="RestWebApplication.Client.Models" t="IncludeRecursive">
+          <e p="bin" t="ExcludeRecursive" />
+          <e p="BindingModels" t="Include">
+            <e p="TeacherInputModel.cs" t="Include" />
+          </e>
+          <e p="obj" t="ExcludeRecursive">
+            <e p="Debug" t="Include">
+              <e p="netstandard2.1" t="Include">
+                <e p="RestWebApplication.Client.Models.AssemblyInfo.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="RestWebApplication.Client.Models.csproj" t="IncludeRecursive" />
+          <e p="ViewModels" t="Include">
+            <e p="HomeViewModel.cs" t="Include" />
+            <e p="TecherViewModel.cs" t="Include" />
+          </e>
+        </e>
+        <e p="RestWebApplication.Infrastructure" t="IncludeRecursive">
+          <e p="bin" t="ExcludeRecursive" />
+          <e p="Helpers" t="Include">
+            <e p="EnumerableExtensions.cs" t="Include" />
+            <e p="Enums" t="Include">
+              <e p="ResourceUriType.cs" t="Include" />
+            </e>
+            <e p="ObjectExtensions.cs" t="Include" />
+            <e p="PagedList.cs" t="Include" />
+            <e p="StringExtensions.cs" t="Include" />
+          </e>
+          <e p="obj" t="ExcludeRecursive">
+            <e p="Debug" t="Include">
+              <e p="netstandard2.1" t="Include">
+                <e p="RestWebApplication.Infrastructure.AssemblyInfo.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="ResourceParameters" t="Include">
+            <e p="TeachersResourceParameters.cs" t="Include" />
+          </e>
+          <e p="RestWebApplication.Infrastructure.csproj" t="IncludeRecursive" />
+        </e>
+      </e>
+      <e p="Data" t="Include">
+        <e p="RestWebApplication.Data" t="IncludeRecursive">
+          <e p="bin" t="ExcludeRecursive" />
+          <e p="obj" t="ExcludeRecursive">
+            <e p="Debug" t="Include">
+              <e p="netstandard2.1" t="Include">
+                <e p="RestWebApplication.Data.AssemblyInfo.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="Repositories" t="Include">
+            <e p="EfRepository.cs" t="Include" />
+          </e>
+          <e p="RestWebAppDbContext.cs" t="Include" />
+          <e p="RestWebApplication.Data.csproj" t="IncludeRecursive" />
+        </e>
+        <e p="RestWebApplication.Data.Common" t="IncludeRecursive">
+          <e p="bin" t="ExcludeRecursive" />
+          <e p="Models" t="Include">
+            <e p="BaseModel.cs" t="Include" />
+            <e p="IAduitInfo.cs" t="Include" />
+          </e>
+          <e p="obj" t="ExcludeRecursive">
+            <e p="Debug" t="Include">
+              <e p="netstandard2.1" t="Include">
+                <e p="RestWebApplication.Data.Common.AssemblyInfo.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="Repositories" t="Include">
+            <e p="IRepository.cs" t="Include" />
+          </e>
+          <e p="RestWebApplication.Data.Common.csproj" t="IncludeRecursive" />
+        </e>
+        <e p="RestWebApplication.Data.Domain" t="IncludeRecursive">
+          <e p="bin" t="ExcludeRecursive" />
+          <e p="obj" t="ExcludeRecursive">
+            <e p="Debug" t="Include">
+              <e p="netstandard2.1" t="Include">
+                <e p="RestWebApplication.Data.Domain.AssemblyInfo.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="RestWebApplication.Data.Domain.csproj" t="IncludeRecursive" />
+          <e p="Teacher.cs" t="Include" />
+        </e>
+      </e>
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="RestWebApplication.Common" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netstandard2.1" t="Include">
+              <e p="RestWebApplication.Common.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="RestWebApplication.Common.csproj" t="IncludeRecursive" />
+        <e p="ThrowHelper.cs" t="Include" />
+      </e>
+      <e p="RestWebApplication.sln" t="IncludeFlat" />
+      <e p="Services" t="Include">
+        <e p="RestWebApplication.Services.Data" t="IncludeRecursive">
+          <e p="bin" t="ExcludeRecursive" />
+          <e p="Contracts" t="Include">
+            <e p="ITeachersService.cs" t="Include" />
+          </e>
+          <e p="obj" t="ExcludeRecursive">
+            <e p="Debug" t="Include">
+              <e p="netstandard2.1" t="Include">
+                <e p="RestWebApplication.Services.Data.AssemblyInfo.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="RestWebApplication.Services.Data.csproj" t="IncludeRecursive" />
+          <e p="TeachersService.cs" t="Include" />
+        </e>
+        <e p="RestWebApplication.Services.Mapping" t="IncludeRecursive">
+          <e p="AutomapperConfig.cs" t="Include" />
+          <e p="AutoMapperExtensions" t="Include">
+            <e p="CollectionExtensions.cs" t="Include" />
+            <e p="ObjectExtensions.cs" t="Include" />
+            <e p="QueryableExtensions.cs" t="Include" />
+          </e>
+          <e p="bin" t="ExcludeRecursive" />
+          <e p="Contracts" t="Include">
+            <e p="IHaveCustomMappings.cs" t="Include" />
+            <e p="IMapFrom.cs" t="Include" />
+            <e p="IMapTo.cs" t="Include" />
+          </e>
+          <e p="obj" t="ExcludeRecursive">
+            <e p="Debug" t="Include">
+              <e p="netstandard2.1" t="Include">
+                <e p="RestWebApplication.Services.Mapping.AssemblyInfo.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="RestWebApplication.Services.Mapping.csproj" t="IncludeRecursive" />
+        </e>
+        <e p="RestWebApplication.Services.Models" t="IncludeRecursive">
+          <e p="bin" t="ExcludeRecursive" />
+          <e p="obj" t="ExcludeRecursive">
+            <e p="Debug" t="Include">
+              <e p="netstandard2.1" t="Include">
+                <e p="RestWebApplication.Services.Models.AssemblyInfo.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="RestWebApplication.Services.Models.csproj" t="IncludeRecursive" />
+          <e p="TeacherDto.cs" t="Include" />
+        </e>
+      </e>
+    </e>
+  </component>
+</project>
