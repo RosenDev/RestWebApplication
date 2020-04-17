@@ -78,7 +78,7 @@ namespace RestWebApplication.Api.Controllers
         }
         
         [HttpPost(Name = "PostTeacher")]
-        public async Task<ActionResult> PostTeacher([FromBody]TeacherDto teacherDto)
+        public async Task<IActionResult> PostTeacher([FromBody]TeacherDto teacherDto)
         {
             if (teacherDto==null)
             {
@@ -86,22 +86,19 @@ namespace RestWebApplication.Api.Controllers
             }
             var result =  await teachersService.CreateAsync(teacherDto);
 
-            return Created(new Uri($"https://localhost:44312/api/teachers/{result}"),null);
+             return Created(new Uri("https://localhost:4"),result );
         }
         [HttpPut("{id:guid}")]
-        public async Task<ActionResult> Put([FromRoute]string id,[FromBody]TeacherDto teacher)
+        public async Task<IActionResult> Put([FromRoute]string id,[FromBody]TeacherDto teacher)
         {
             teacher.Id = id;
             var result = await teachersService.UpdateAsync(teacher);
 
-            return CreatedAtRoute("GetTeacher", new
-            {
-                id=result
-            });
+         return NoContent();
         }
         
         [HttpDelete("{id:guid}",Name = "DeleteTeacher")]
-        public async Task<ActionResult> DeleteTeacher(string id)
+        public async Task<IActionResult> DeleteTeacher(string id)
         {
             var success = await teachersService.RemoveAsync(id);
 
@@ -110,7 +107,7 @@ namespace RestWebApplication.Api.Controllers
                 return NotFound();
             }
 
-            return Ok();
+            return NoContent();
         }
 
         private string CreateTeachersResourceUri(TeachersResourceParameters teachersResourceParameters,
